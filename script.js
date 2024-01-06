@@ -1,4 +1,4 @@
-let dislayValue = '';
+let displayValue = '';
 
 function appendToDisplay(value) {
   displayValue += value;
@@ -18,3 +18,4 @@ function calculate() {
     document.getElementById('display').value = 'Error';
   }
 }
+    
