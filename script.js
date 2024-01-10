@@ -1,7 +1,7 @@
 let displayValue = '';
 
-function appendToDisplay(value) {
-  displayValue += value;
+function appendToDisplay(value1) {
+  displayValue += value1;
   document.getElementById('display').value = displayValue;
 }
 
